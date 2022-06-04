@@ -5,17 +5,16 @@ Setup dev and pm environments
     connect text editor to github
 
 Create Threat intelligence API
-    Deploy Honeypot sensor
-        Identify sensor requirements
-            Identify Hosts which provide DMZ and dedicated IP at lowest cost
-            
-            identify which VPS size is appropriate for the sensor. And approximate bvandwidth use
+    Identify sensor requirements
+        Identify Hosts which provide DMZ and dedicated IP at lowest cost
 
-            research hosting providers policies.
-        Custom ISO
-            Identify parts of stock (tpotce) sensor which ship telemetry to tmobile and remove them 
+        identify which VPS size is appropriate for the sensor. And approximate bvandwidth use
 
-            forward all management ports over one of the dedicated management ports, whitelist it
-                Disable any low information sensors
+        research hosting providers policies.
+Custom ISO
+Identify parts of stock (tpotce) sensor which ship telemetry to tmobile and remove them 
 
-                Create additional port rules for low information ports
+forward all management ports over one of the dedicated management ports, whitelist it
+    
+Disable all unnecessary open ports. 
+Create additional port rules for low information ports
