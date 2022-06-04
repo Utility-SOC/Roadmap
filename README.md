@@ -1,20 +1,25 @@
-# Roadmap
+# Roadmap # Davesec # Create Threat intelligence API for personal use
 Roadmap for Webapp goals, and and ideally documentation.
 
-Setup dev and pm environments
-    connect text editor to github
+# Setup dev environment
 
-Create Threat intelligence API
-    Identify sensor requirements
-        Identify Hosts which provide DMZ and dedicated IP at lowest cost
-
-        identify which VPS size is appropriate for the sensor. And approximate bvandwidth use
-
-        research hosting providers policies.
-Custom ISO
-Identify parts of stock (tpotce) sensor which ship telemetry to tmobile and remove them 
-
-forward all management ports over one of the dedicated management ports, whitelist it
     
-Disable all unnecessary open ports. 
-Create additional port rules for low information ports
+# Custom ISO - Using the Tpotce projects fine work I intend to initially deploy a modified version of their sensor stack to a remote host, and the monitoring aspects (Principally the ELK stack) installed on a separate host.
+
+    Identify high value sensor modules
+    Disable third party telemetry
+    Minimize footprint
+
+    Identify sensor requirements
+            Identify Hosts which provide DMZ and dedicated IP at lowest cost
+            Identify which VPS size is appropriate for the sensor. And approximate bandwidth use
+            Research hosting providers policies
+            Identify best practices for shipping logs to minimize local node requirements
+            
+
+    
+    
+    
+    
+    
+    
